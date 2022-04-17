@@ -69,11 +69,6 @@
 [submodule "ports/nrf/nrfx"]
 	path = ports/nrf/nrfx
 	url = https://github.com/adafruit/nrfx.git
-[submodule "lib/tinyusb"]
-	path = lib/tinyusb
-	url = https://github.com/hathach/tinyusb.git
-	branch = master
-	fetchRecurseSubmodules = false
 [submodule "tools/huffman"]
 	path = tools/huffman
 	url = https://github.com/tannewt/huffman.git
@@ -191,11 +186,6 @@
 	path = ports/broadcom/peripherals
 	url = https://github.com/adafruit/broadcom-peripherals.git
 	branch = main-build
-[submodule "rpi-firmware"]
-	path = ports/broadcom/firmware
-	url = https://github.com/raspberrypi/rpi-firmware.git
-	branch = master
-	shallow = true
 [submodule "ports/stm/st_driver/cmsis_device_f4"]
 	path = ports/stm/st_driver/cmsis_device_f4
 	url = https://github.com/STMicroelectronics/cmsis_device_f4.git
